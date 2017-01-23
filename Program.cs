@@ -8,7 +8,7 @@ namespace ConsoleApplication
         public static void Main(string[] args)
         {
 
-            //factory pattern
+            //factory pattern some change
            var report = ReportFactory.CreateReport("PDF");
            report.DisplayReport();
 
